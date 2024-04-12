@@ -20,7 +20,7 @@ def create_webapp() -> InlineKeyboardMarkup:
         inline_keyboard=[
             [
                 InlineKeyboardButton(
-                    text="Order Food",
+                    text="Open WebApp",
                     web_app=WebAppInfo(url=f'https://watuneed.github.io/web_app/'),
                 )
             ]
